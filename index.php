@@ -29,6 +29,13 @@
         $second->add_grade(80);
         $second->add_grade(50);
         $students['a456'] = $second;
+
+        $third = new Student();
+        $third->surname = "Wildsmith";
+        $third->first_name = "Jeremy";
+        $third->add_email('home', 'jeremywildsmith@yahoo.ca');
+        $third->add_grade(65);
+        $students['a155'] = $third;
         
         
         ksort($students);
